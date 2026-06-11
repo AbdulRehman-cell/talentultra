@@ -43,7 +43,7 @@ const upload = require("./multer");
 // =====
   app.use(
   cors({
-    origin: "https://jobpal--fjyxqtwe51.expo.app",
+    origin: "https://jobpal--ho4qyappsi.expo.app",
     credentials: true,
   })
 );
