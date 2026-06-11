@@ -10,8 +10,6 @@ const Shift = require("./Shift");
 const { nanoid } = require("nanoid");
 
 
-const bcrypt = require("bcryptjs");
-
 
 
 const app = express();
@@ -51,19 +49,6 @@ const upload = require("./multer");
 );
 
 app.use(express.json());
-app.use(
-  session({
-    secret: "secretkey",
-    resave: false,
-    saveUninitialized: false,
-    cookie: {
-      maxAge: 1000 * 60 * 60 * 24, // 1 day
-      sameSite: "lax",
-      secure: false, // true only with HTTPS
-    },
-  })
-);
-
 
 
 
