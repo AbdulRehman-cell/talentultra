@@ -9,6 +9,8 @@ const Shift = require("./Shift");
 
 const { nanoid } = require("nanoid");
 
+const bcrypt = require("bcryptjs");
+
 
 
 
