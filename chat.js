@@ -43,7 +43,7 @@ const upload = require("./multer");
 // =====
   app.use(
   cors({
-    origin: "https://talentultra-7.onrender.com/",
+    origin: "https://talentultra-8.onrender.com/",
     credentials: true,
   })
 );
