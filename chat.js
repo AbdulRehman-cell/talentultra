@@ -29,7 +29,7 @@ const JWT_SECRET = "super-secret-jwt-key";
 // MODELS
 // ======================
 
-const User = require("./User");
+const User = require("./user");
 
 const Message = require("./chats");
 
