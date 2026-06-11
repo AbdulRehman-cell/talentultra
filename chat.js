@@ -43,7 +43,7 @@ const upload = require("./multer");
 // =====
   app.use(
   cors({
-    origin: "https://talentultra-8.onrender.com/",
+    origin: "https://jobpal--fjyxqtwe51.expo.app",
     credentials: true,
   })
 );
